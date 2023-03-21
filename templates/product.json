@@ -92,18 +92,10 @@
             "heading": "Grab one you like",
             "heading_size": "h1"
           }
-        },
-        "template--18370467496241__2796ffc2-8fb0-43a1-b16e-ffa60ccd67c4-1679422479d80810c4-1": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "template--18370467496241__2796ffc2-8fb0-43a1-b16e-ffa60ccd67c4-1679422479d80810c4-0",
-        "template--18370467496241__2796ffc2-8fb0-43a1-b16e-ffa60ccd67c4-1679422479d80810c4-1"
+        "template--18370467496241__2796ffc2-8fb0-43a1-b16e-ffa60ccd67c4-1679422479d80810c4-0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/quokkabottles-O_oWOsqVk_Y-unsplash.jpg",
@@ -128,29 +120,10 @@
             "heading": "<p>Stylish, Durable Hydration.<\/p>",
             "heading_size": "h1"
           }
-        },
-        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Perfect for:<\/p>"
-          }
-        },
-        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-0",
-        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-1",
-        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-2"
+        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-0"
       ],
       "settings": {
         "desktop_content_position": "center",
