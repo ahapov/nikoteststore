@@ -47,36 +47,98 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "09ff493e-7765-427c-86d6-a82567a07ab4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18370467103025__09ff493e-7765-427c-86d6-a82567a07ab4-1679413297288c0f1f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hydration for the adventurous",
+            "heading_size": "h1"
+          }
+        },
+        "template--18370467103025__09ff493e-7765-427c-86d6-a82567a07ab4-1679413297288c0f1f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our stainless steel bottles are built to last and reduce waste in landfills<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18370467103025__09ff493e-7765-427c-86d6-a82567a07ab4-1679413297288c0f1f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/blogs\/news"
+          }
+        }
+      },
+      "block_order": [
+        "template--18370467103025__09ff493e-7765-427c-86d6-a82567a07ab4-1679413297288c0f1f-0",
+        "template--18370467103025__09ff493e-7765-427c-86d6-a82567a07ab4-1679413297288c0f1f-1",
+        "template--18370467103025__09ff493e-7765-427c-86d6-a82567a07ab4-1679413297288c0f1f-2"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "image": "shopify:\/\/shop_images\/person-gets-ready-to-water-a-small-potted-plant.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "383f9902-2197-4c1a-b865-6425ea487a97": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18370467103025__383f9902-2197-4c1a-b865-6425ea487a97-1679413297288c0f1f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18370467103025__383f9902-2197-4c1a-b865-6425ea487a97-1679413297288c0f1f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18370467103025__383f9902-2197-4c1a-b865-6425ea487a97-1679413297288c0f1f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18370467103025__383f9902-2197-4c1a-b865-6425ea487a97-1679413297288c0f1f-0",
+        "template--18370467103025__383f9902-2197-4c1a-b865-6425ea487a97-1679413297288c0f1f-1",
+        "template--18370467103025__383f9902-2197-4c1a-b865-6425ea487a97-1679413297288c0f1f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/woman-laughs-and-holds-up-water-bottle-to-drink.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "09ff493e-7765-427c-86d6-a82567a07ab4",
+    "383f9902-2197-4c1a-b865-6425ea487a97"
   ]
 }

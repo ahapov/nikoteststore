@@ -8,9 +8,9 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "FREE SHIPPING | 100% MONEY BACK GUARANTEE",
             "text_alignment": "center",
-            "color_scheme": "background-1",
+            "color_scheme": "accent-2",
             "link": ""
           }
         }
