@@ -119,6 +119,48 @@
         "padding_bottom": 36
       }
     },
+    "d163fa2f-20cf-4847-9997-e8731372e229": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Stylish, Durable Hydration.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Perfect for:<\/p>"
+          }
+        },
+        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-0",
+        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-1",
+        "template--18370467496241__d163fa2f-20cf-4847-9997-e8731372e229-16794234965d2e498f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "c5b494d4-04bb-44ca-8601-61b51d1a6390": {
       "type": "slideshow",
       "blocks": {
@@ -126,7 +168,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/person-pours-water-into-a-small-potted-plant.jpg",
-            "heading": "Perfect for",
+            "heading": "Gardening",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
@@ -216,6 +258,7 @@
     "main",
     "related-products",
     "2796ffc2-8fb0-43a1-b16e-ffa60ccd67c4",
+    "d163fa2f-20cf-4847-9997-e8731372e229",
     "c5b494d4-04bb-44ca-8601-61b51d1a6390"
   ]
 }
