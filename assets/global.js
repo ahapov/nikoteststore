@@ -810,12 +810,26 @@ class VariantSelects extends HTMLElement {
       this.setUnavailable();
     } else {
       this.updateMedia();
+      this.filterMedia();
       this.updateURL();
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
     }
   }
+
+filterMedia() {
+  var selected_variant = this.currentVariant;
+  var selected_variant_images = selected_variant.featured_media;
+  
+  $('[thumbnail-color]').hide();
+  
+  for (var i = 0; i < selected_variant_images.length; i++) {
+    var image_alt = selected_variant_images[i].alt;
+    var selected_attribute = '[thumbnail-color="' + image_alt + '"]';
+    $(selected_attribute).show();
+  }
+}
 
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);

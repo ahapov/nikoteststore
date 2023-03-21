@@ -2530,6 +2530,10 @@ details[open] .modal-overlay::after {
   right: 0.5rem;
 }
 
+.header__icon--search {
+    display: none;
+}
+
 .search-modal {
   opacity: 0;
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
