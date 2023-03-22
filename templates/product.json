@@ -66,6 +66,50 @@
         "padding_bottom": 12
       }
     },
+    "822e028d-34cf-4b08-bb4b-41fc783177a9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18370467496241__822e028d-34cf-4b08-bb4b-41fc783177a9-167947345100013d65-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18370467496241__822e028d-34cf-4b08-bb4b-41fc783177a9-167947345100013d65-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.trust_description | metafield_tag }}<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18370467496241__822e028d-34cf-4b08-bb4b-41fc783177a9-167947345100013d65-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18370467496241__822e028d-34cf-4b08-bb4b-41fc783177a9-167947345100013d65-0",
+        "template--18370467496241__822e028d-34cf-4b08-bb4b-41fc783177a9-167947345100013d65-1",
+        "template--18370467496241__822e028d-34cf-4b08-bb4b-41fc783177a9-167947345100013d65-2"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.trust_badge.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -229,6 +273,7 @@
   },
   "order": [
     "main",
+    "822e028d-34cf-4b08-bb4b-41fc783177a9",
     "related-products",
     "2796ffc2-8fb0-43a1-b16e-ffa60ccd67c4",
     "d163fa2f-20cf-4847-9997-e8731372e229",
