@@ -2400,6 +2400,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .header__icons {
   display: flex;
   grid-area: icons;
+  align-items: center;
   justify-self: end;
 }
 
@@ -2437,13 +2438,22 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .header__icon,
 .header__icon--cart .icon {
   height: 4.4rem;
-  width: 4.4rem;
+  width: 7.2rem;
   padding: 0;
 }
 
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
+}
+
+.header__icon--account {
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.header__icon--account:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 989px) {

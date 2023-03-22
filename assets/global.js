@@ -803,6 +803,7 @@ class VariantSelects extends HTMLElement {
     this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
+    this.filterImgVariant();
     this.updateVariantStatuses();
 
     if (!this.currentVariant) {
@@ -810,7 +811,6 @@ class VariantSelects extends HTMLElement {
       this.setUnavailable();
     } else {
       this.updateMedia();
-      this.filterMedia();
       this.updateURL();
       this.updateVariantInput();
       this.renderProductInfo();
@@ -818,16 +818,14 @@ class VariantSelects extends HTMLElement {
     }
   }
 
-filterMedia() {
-  var selected_variant = this.currentVariant;
-  var selected_variant_images = selected_variant.featured_media;
-  
-  $('[thumbnail-color]').hide();
-  
-  for (var i = 0; i < selected_variant_images.length; i++) {
-    var image_alt = selected_variant_images[i].alt;
-    var selected_attribute = '[thumbnail-color="' + image_alt + '"]';
-    $(selected_attribute).show();
+filterImgVariant() {
+  if(this.currentVariant.featured_image && this.currentVariant.featured_image.alt) {
+    document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'none')
+    const currentImgAlt = this.currentVariant.featured_image.alt
+    const thumbnailSelector = `[thumbnail-alt = '${currentImgAlt}']`
+    document.querySelectorAll(thumbnailSelector).forEach(img => img.style.display = 'block')
+  } else {
+    document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'block')
   }
 }
 

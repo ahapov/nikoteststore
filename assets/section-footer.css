@@ -348,7 +348,7 @@
 }
 
 .disclosure__button.localization-form__select {
-  padding: calc(2rem + var(--inputs-border-width));
+  padding: calc(1rem + var(--inputs-border-width));
   background: rgb(var(--color-background));
 }
 
@@ -395,7 +395,7 @@ noscript .localization-selector.link {
 }
 
 .localization-selector + .disclosure__list-wrapper {
-  margin-left: 1rem;
+  margin: 0 auto;
   opacity: 1;
   animation: animateLocalization var(--duration-default) ease;
 }
