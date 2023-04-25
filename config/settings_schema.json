@@ -142,7 +142,7 @@
       },
       {
         "type": "font_picker",
-        "id": "type_body_font",
+        "id": "type_body_font_1",
         "default": "assistant_n4",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
@@ -230,12 +230,12 @@
     },
     {
       "type": "range",
-      "id": "body_scale",
+      "id": "body_scale_1",
       "min": 10,
       "max": 80,
       "step": 1,
       "unit": "px",
-      "label": "t:settings_schema.typography.settings.body_scale.label",
+      "label": "t:settings_schema.typography.settings.body_scale_1.label",
       "default": 16
     }
     ]
