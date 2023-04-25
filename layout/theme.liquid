@@ -60,6 +60,7 @@
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
+        --font-h1-scale: {{ settings.h1_scale | times: 1.0 | divided_by: settings.body_scale }};
 
         --color-base-text: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
         --color-shadow: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
@@ -217,24 +218,6 @@
           font-size: 1.6rem;
         }
       }
-h1 {
-  font-size: {{ settings.h1_scale }}px;
-}
-h2 {
-  font-size: {{ settings.h2_scale }}px;
-}
-h3 {
-  font-size: {{ settings.h3_scale }}px;
-}
-h4 {
-  font-size: {{ settings.h4_scale }}px;
-}
-h5 {
-  font-size: {{ settings.h5_scale }}px;
-}
-h6 {
-  font-size: {{ settings.h6_scale }}px;
-}
 
     {% endstyle %}
 
