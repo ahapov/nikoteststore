@@ -129,12 +129,12 @@
       {
         "type": "range",
         "id": "h1_scale",
-        "min": 18,
-        "max": 48,
+        "min": 32,
+        "max": 120,
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.typography.settings.h1_scale.label",
-        "default": 24
+        "default": 32
       },
       {
         "type": "range",
@@ -144,7 +144,7 @@
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.typography.settings.h2_scale.label",
-        "default": 20
+        "default": 24
       },
       {
         "type": "range",
@@ -154,7 +154,7 @@
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.typography.settings.h3_scale.label",
-        "default": 18
+        "default": 20.8
       },
       {
         "type": "range",
@@ -174,7 +174,7 @@
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.typography.settings.h5_scale.label",
-        "default": 14
+        "default": 12.8
       },
       {
         "type": "range",
@@ -184,7 +184,7 @@
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.typography.settings.h6_scale.label",
-        "default": 12
+        "default": 11.2
       },
       {
         "type": "header",
