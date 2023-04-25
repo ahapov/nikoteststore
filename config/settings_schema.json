@@ -149,12 +149,12 @@
       {
         "type": "range",
         "id": "h3_scale",
-        "min": 14,
+        "min": 20,
         "max": 30,
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.typography.settings.h3_scale.label",
-        "default": 20.8
+        "default": 22
       },
       {
         "type": "range",
@@ -174,17 +174,17 @@
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.typography.settings.h5_scale.label",
-        "default": 12.8
+        "default": 12
       },
       {
         "type": "range",
         "id": "h6_scale",
         "min": 8,
         "max": 18,
-        "step": 2,
+        "step": 1,
         "unit": "px",
         "label": "t:settings_schema.typography.settings.h6_scale.label",
-        "default": 11.2
+        "default": 11
       },
       {
         "type": "header",
