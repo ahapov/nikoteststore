@@ -217,6 +217,25 @@
           font-size: 1.6rem;
         }
       }
+h1 {
+  font-size: {{ settings.h1_scale }}px;
+}
+h2 {
+  font-size: {{ settings.h2_scale }}px;
+}
+h3 {
+  font-size: {{ settings.h3_scale }}px;
+}
+h4 {
+  font-size: {{ settings.h4_scale }}px;
+}
+h5 {
+  font-size: {{ settings.h5_scale }}px;
+}
+h6 {
+  font-size: {{ settings.h6_scale }}px;
+}
+
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
