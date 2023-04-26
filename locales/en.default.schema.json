@@ -206,7 +206,8 @@
         "label": "Font size scale"
       },
       "h1_scale": {
-        "label": "H1 Font size scale"
+        "label": "H1 Font size scale",
+        "info": "Your heading font size"
       },
       "h2_scale": {
         "label": "H2 Font size scale"
