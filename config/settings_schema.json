@@ -117,7 +117,8 @@
   "settings": [
     {
       "type": "header",
-      "content": "t:settings_schema.typography.settings.header__1.content"
+      "content": "t:settings_schema.typography.settings.header__1.content",
+      "info": "t:settings_schema.typography.settings.header_font.info"
     },
     {
       "type": "font_picker",
@@ -126,8 +127,7 @@
         "font": "Assistant",
         "variant": "regular"
       },
-      "label": "t:settings_schema.typography.settings.header_font.label",
-      "info": "t:settings_schema.typography.settings.header_font.info"
+      "label": "t:settings_schema.typography.settings.header_font.label"
     },
     {
       "type": "range",
@@ -150,8 +150,7 @@
         "font": "Assistant",
         "variant": "regular"
       },
-      "label": "t:settings_schema.typography.settings.body_font.label",
-      "info": "t:settings_schema.typography.settings.body_font.info"
+      "label": "t:settings_schema.typography.settings.body_font.label"
     },
     {
       "type": "range",

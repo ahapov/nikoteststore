@@ -195,50 +195,31 @@
         }
       }
     },
-  "typography": {
-    "name": "Fonts",
-    "settings": {
-      "type_header_font": {
-        "label": "Font",
-        "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
-      },
-      "heading_scale": {
-        "label": "Font size scale"
-      },
-      "h1_scale": {
-        "label": "H1 Font size scale",
-        "info": "Your heading font size"
-      },
-      "h2_scale": {
-        "label": "H2 Font size scale"
-      },
-      "h3_scale": {
-        "label": "H3 Font size scale"
-      },
-      "h4_scale": {
-        "label": "H4 Font size scale"
-      },
-      "h5_scale": {
-        "label": "H5 Font size scale"
-      },
-      "h6_scale": {
-        "label": "H6 Font size scale"
-      },
-      "header__1": {
-        "content": "Headings"
-      },
-      "header__2": {
-        "content": "Body"
-      },
-      "type_body_font": {
-        "label": "Font",
-        "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
-      },
-      "body_scale": {
-        "label": "Font size scale"
-      } 
-    }
-},
+    "typography": {
+      "name": "Fonts",
+      "settings": {
+        "type_header_font": {
+          "label": "Font",
+          "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+        },
+        "heading_scale": {
+          "label": "Font size scale"
+        },
+        "header__1": {
+          "content": "Headings"
+        },
+        "header__2": {
+          "content": "Body"
+        },
+        "type_body_font": {
+          "label": "Font",
+          "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+        },
+        "body_scale": {
+          "label": "Font size scale"
+        } 
+      }
+  },
 "buttons": {
       "name": "Buttons"
     },
