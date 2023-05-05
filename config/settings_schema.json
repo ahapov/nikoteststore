@@ -33,85 +33,63 @@
       }
     ]
   },
-  {
-    "name": "t:settings_schema.colors.name",
-    "settings": [
-      {
-        "type": "header",
-        "content": "t:settings_schema.colors.settings.header__1.content"
-      },
-      {
-        "type": "color",
-        "id": "colors_solid_button_labels",
-        "default": "#FFFFFF",
-        "label": "t:settings_schema.colors.settings.colors_solid_button_labels.label",
-        "info": "t:settings_schema.colors.settings.colors_solid_button_labels.info"
-      },
-      {
-        "type": "color",
-        "id": "colors_accent_1",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_accent_1.label",
-        "info": "t:settings_schema.colors.settings.colors_accent_1.info"
-      },
-      {
-        "id": "gradient_accent_1",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_accent_1.label"
-      },
-      {
-        "type": "color",
-        "id": "colors_accent_2",
-        "default": "#334FB4",
-        "label": "t:settings_schema.colors.settings.colors_accent_2.label"
-      },
-      {
-        "id": "gradient_accent_2",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_accent_2.label"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.colors.settings.header__2.content"
-      },
-      {
-        "type": "color",
-        "id": "colors_text",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_text.label",
-        "info": "t:settings_schema.colors.settings.colors_text.info"
-      },
-      {
-        "type": "color",
-        "id": "colors_outline_button_labels",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_outline_button_labels.label",
-        "info": "t:settings_schema.colors.settings.colors_outline_button_labels.info"
-      },
-      {
-        "type": "color",
-        "id": "colors_background_1",
-        "default": "#FFFFFF",
-        "label": "t:settings_schema.colors.settings.colors_background_1.label"
-      },
-      {
-        "id": "gradient_background_1",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_1.label"
-      },
-      {
-        "type": "color",
-        "id": "colors_background_2",
-        "default": "#F3F3F3",
-        "label": "t:settings_schema.colors.settings.colors_background_2.label"
-      },
-      {
-        "id": "gradient_background_2",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_2.label"
-      }
-    ]
-  },
+{
+  "name": "t:settings_schema.fonts.name",
+  "settings": [
+    {
+      "type": "info",
+      "content": "t:settings_schema.fonts.info",
+      "placement": "top"
+    },
+    {
+      "type": "header",
+      "content": "t:settings_schema.fonts.header__1.content"
+    },
+    {
+      "type": "font_picker",
+      "id": "header_font",
+      "default": "assistant_n4",
+      "label": "t:settings_schema.fonts.header_font.label"
+    },
+    {
+      "type": "range",
+      "id": "heading_scale",
+      "min": 100,
+      "max": 150,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.fonts.heading_scale.label",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "t:settings_schema.fonts.header__2.content"
+    },
+    {
+      "type": "font_picker",
+      "id": "body_font",
+      "default": "assistant_n4",
+      "label": "t:settings_schema.fonts.body_font.label"
+    },
+    {
+      "type": "range",
+      "id": "body_scale",
+      "min": 100,
+      "max": 130,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.fonts.body_scale.label",
+      "default": 100
+    },
+    {
+      "type": "url",
+      "id": "learn_more_link",
+      "label": "t:settings_schema.fonts.learn_more_link.label",
+      "default": "https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts",
+      "info": "t:settings_schema.fonts.learn_more_link.info"
+    }
+  ]
+},
 {
   "name": "t:settings_schema.typography.name",
   "settings": [
