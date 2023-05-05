@@ -52,10 +52,16 @@
       "content": "t:settings_schema.typography.settings.header__2.content"
     },
     {
-      "type": "file_picker",
-      "id": "self-hosted_font",
+      "type": "file",
+      "id": "self_hosted_font",
       "label": "t:settings_schema.typography.settings.self_hosted_font.label",
-      "accept": ".woff, .woff2"
+      "accept": ".woff2, .woff"
+    },
+    {
+      "type": "text",
+      "id": "self_hosted_font_name",
+      "default": "",
+      "label": "t:settings_schema.typography.settings.self_hosted_font_name.label"
     }
   ]
 },
