@@ -34,36 +34,38 @@
       ]
     }, 
 {
-  "name": "Fonts",
+  "name": "t:settings_schema.typography.name",
   "settings": [
     {
       "type": "header",
-      "content": "Google Fonts",
-      "info": "Enter the name of the Google font you want to use or multiple fonts separated by commas."
+      "info": "t:settings_schema.typography.settings.type_header_font.info",
+      "content": "t:settings_schema.typography.settings.header__1.content"
     },
     {
-      "type": "text",
-      "id": "google_fonts",
-      "default": "",
-      "label": "Font Name(s)"
+      "type": "font_picker",
+      "id": "type_header_font",
+      "default": "assistant_n4",
+      "label": "t:settings_schema.typography.settings.type_header_font.label"
     },
     {
       "type": "header",
-      "content": "Self-hosted Fonts",
-      "info": "Upload your font files and enter the font name below. Only WOFF2 and WOFF formats are supported."
+      "content": "t:settings_schema.typography.settings.header__2.content"
     },
     {
-      "type": "file",
-      "id": "self_hosted_font",
-      "name": "Self-hosted Fonts",
-      "info": "Upload your WOFF2 or WOFF format font file below and enter the font name.",
-      "accept": "font/woff2,font/woff"
+      "type": "font_picker",
+      "id": "type_body_font_1",
+      "default": "assistant_n4",
+      "label": "t:settings_schema.typography.settings.type_body_font.label"
     },
     {
-      "type": "text",
-      "id": "self_hosted_font_name",
-      "default": "",
-      "label": "Font Name"
+      "type": "range",
+      "id": "body_scale",
+      "min": 100,
+      "max": 130,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.typography.settings.body_scale.label",
+      "default": 100
     }
   ]
 },

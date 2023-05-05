@@ -198,16 +198,25 @@
 "typography": {
   "name": "Fonts",
   "settings": {
-    "google_fonts": {
-      "label": "Google Fonts",
-      "info": "For optimal speed and performance, it's recommended to use no more than two font families in your store. Enter the name of the Google font(s) you want to use or multiple fonts separated by commas."
+    "type_header_font": {
+      "label": "Font",
+      "info": "For optimal speed and performance, it's best to keep the number of font families used in your store to a maximum of two. [Read More](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
     },
-    "self_hosted_font": {
-      "label": "Self-hosted Fonts",
-      "info": "Upload your WOFF2 or WOFF format font file below and enter the font name."
+    "heading_scale": {
+      "label": "Font size scale"
     },
-    "self_hosted_font_name": {
-      "label": "Font Name"
+    "header__1": {
+      "content": "Headings"
+    },
+    "header__2": {
+      "content": "Body"
+    },
+    "type_body_font": {
+      "label": "Font",
+      "info": "It is generally recommended to limit the number of custom fonts used in your store to 2-3, as selecting a different font can have an impact on the loading speed of your store. [Read More](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+    },
+    "body_scale": {
+      "label": "Font size scale"
     }
   }
 },
