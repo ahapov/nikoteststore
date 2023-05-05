@@ -212,7 +212,8 @@
           "content": "Body"
         },
         "type_body_font": {
-          "label": "Font"
+          "label": "Font",
+          "info": "It is generally recommended to limit the number of custom fonts used in your store to 2-3, as selecting a different font can have an impact on the loading speed of your store. [Read More](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "body_scale": {
           "label": "Font size scale"
