@@ -8,147 +8,93 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
-    "name": "t:settings_schema.logo.name",
+      "name": "t:settings_schema.logo.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "t:settings_schema.logo.settings.logo_image.label"
+        },
+        {
+          "type": "range",
+          "id": "logo_width",
+          "min": 50,
+          "max": 300,
+          "step": 10,
+          "default": 100,
+          "unit": "px",
+          "label": "t:settings_schema.logo.settings.logo_width.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "favicon",
+          "label": "t:settings_schema.logo.settings.favicon.label",
+          "info": "t:settings_schema.logo.settings.favicon.info"
+        }
+      ]
+    },
+  {
+    "name": "t:settings_schema.typography.name",
     "settings": [
       {
-        "type": "image_picker",
-        "id": "logo",
-        "label": "t:settings_schema.logo.settings.logo_image.label"
+        "type": "header",
+        "content": "t:settings_schema.typography.settings.header__1.content",
+        "info": "t:settings_schema.typography.settings.header_font.info"
+      },
+      {
+        "type": "font_picker",
+        "id": "header_font",
+        "default": {
+          "font": "Assistant",
+          "variant": "regular"
+        },
+        "label": "t:settings_schema.typography.settings.header_font.label"
       },
       {
         "type": "range",
-        "id": "logo_width",
-        "min": 50,
-        "max": 300,
-        "step": 10,
-        "default": 100,
-        "unit": "px",
-        "label": "t:settings_schema.logo.settings.logo_width.label"
+        "id": "heading_scale",
+        "min": 100,
+        "max": 150,
+        "step": 5,
+        "unit": "%",
+        "label": "t:settings_schema.typography.settings.heading_scale.label",
+        "default": 100
       },
       {
-        "type": "image_picker",
-        "id": "favicon",
-        "label": "t:settings_schema.logo.settings.favicon.label",
-        "info": "t:settings_schema.logo.settings.favicon.info"
+        "type": "header",
+        "content": "t:settings_schema.typography.settings.header__2.content"
+      },
+      {
+        "type": "font_picker",
+        "id": "body_font",
+        "default": {
+          "font": "Assistant",
+          "variant": "regular"
+        },
+        "label": "t:settings_schema.typography.settings.body_font.label"
+      },
+      {
+        "type": "range",
+        "id": "body_scale",
+        "min": 100,
+        "max": 130,
+        "step": 5,
+        "unit": "%",
+        "label": "t:settings_schema.typography.settings.body_scale.label",
+        "default": 100
+      },
+      {
+        "type": "info",
+        "content": "t:settings_schema.typography.settings.info.content"
+      },
+      {
+        "type": "url",
+        "id": "learn_more_link",
+        "label": "t:settings_schema.typography.settings.learn_more_link.label",
+        "default": "https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts"
       }
     ]
   },
-{
-  "name": "t:settings_schema.typography.name",
-  "settings": [
-    {
-      "type": "header",
-      "content": "t:settings_schema.typography.settings.header__1.content"
-    },
-    {
-      "type": "font_picker",
-      "id": "header_font",
-      "default": "assistant_n4",
-      "label": "t:settings_schema.typography.settings.header_font.label"
-    },
-    {
-      "type": "range",
-      "id": "heading_scale_setting",
-      "min": 100,
-      "max": 150,
-      "step": 5,
-      "unit": "%",
-      "label": "t:settings_schema.typography.settings.heading_scale.label",
-      "default": 100
-    },
-    {
-      "type": "header",
-      "content": "t:settings_schema.typography.settings.header__2.content"
-    },
-    {
-      "type": "font_picker",
-      "id": "body_font",
-      "default": "assistant_n4",
-      "label": "t:settings_schema.typography.settings.body_font.label"
-    },
-    {
-      "type": "range",
-      "id": "body_scale_setting",
-      "min": 100,
-      "max": 130,
-      "step": 5,
-      "unit": "%",
-      "label": "t:settings_schema.typography.settings.body_scale.label",
-      "default": 100
-    }
-  ],
-  "info": {
-    "type": "text",
-    "text": "t:settings_schema.typography.settings.info.content"
-  },
-  "learn_more_link": {
-    "type": "url",
-    "label": "t:settings_schema.typography.settings.learn_more_link.label",
-    "default": "https://example.com"
-  }
-},
-{
-  "name": "t:settings_schema.typography.name",
-  "settings": [
-    {
-      "type": "header",
-      "content": "t:settings_schema.typography.settings.header__1.content",
-      "info": "t:settings_schema.typography.settings.header_font.info"
-    },
-    {
-      "type": "font_picker",
-      "id": "header_font",
-      "default": {
-        "font": "Assistant",
-        "variant": "regular"
-      },
-      "label": "t:settings_schema.typography.settings.header_font.label"
-    },
-    {
-      "type": "range",
-      "id": "heading_scale",
-      "min": 100,
-      "max": 150,
-      "step": 5,
-      "unit": "%",
-      "label": "t:settings_schema.typography.settings.heading_scale.label",
-      "default": 100
-    },
-    {
-      "type": "header",
-      "content": "t:settings_schema.typography.settings.header__2.content"
-    },
-    {
-      "type": "font_picker",
-      "id": "body_font",
-      "default": {
-        "font": "Assistant",
-        "variant": "regular"
-      },
-      "label": "t:settings_schema.typography.settings.body_font.label"
-    },
-    {
-      "type": "range",
-      "id": "body_scale",
-      "min": 100,
-      "max": 130,
-      "step": 5,
-      "unit": "%",
-      "label": "t:settings_schema.typography.settings.body_scale.label",
-      "default": 100
-    },
-    {
-      "type": "info",
-      "content": "t:settings_schema.typography.settings.info.content"
-    },
-    {
-      "type": "url",
-      "id": "learn_more_link",
-      "label": "t:settings_schema.typography.settings.learn_more_link.label",
-      "default": "https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts"
-    }
-  ]
-},
   {
     "name": "t:settings_schema.buttons.name",
     "settings": [
