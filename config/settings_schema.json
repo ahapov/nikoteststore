@@ -35,9 +35,9 @@
     }, 
 {
   "name": "t:settings_schema.typography.name",
+  "info": "t:settings_schema.typography.settings.type_header_font.info",
   "settings": [
     {
-      "info": "t:settings_schema.typography.settings.type_header_font.info",
       "type": "header",
       "content": "t:settings_schema.typography.settings.header__1.content"
     },
