@@ -34,66 +34,56 @@
       ]
     },
   {
-    "name": "t:settings_schema.typography.name",
+    "name": "Fonts",
     "settings": [
       {
         "type": "header",
-        "content": "t:settings_schema.typography.settings.header__1.content",
-        "info": "t:settings_schema.typography.settings.header_font.info"
+        "content": "Headings"
       },
       {
         "type": "font_picker",
         "id": "header_font",
-        "default": {
-          "font": "Assistant",
-          "variant": "regular"
-        },
-        "label": "t:settings_schema.typography.settings.header_font.label"
+        "label": "Font",
+        "default": "Arial"
       },
       {
         "type": "range",
         "id": "heading_scale",
-        "min": 100,
-        "max": 150,
+        "label": "Font size scale",
+        "default": 100,
+        "min": 80,
+        "max": 120,
         "step": 5,
-        "unit": "%",
-        "label": "t:settings_schema.typography.settings.heading_scale.label",
-        "default": 100
+        "unit": "%"
       },
       {
         "type": "header",
-        "content": "t:settings_schema.typography.settings.header__2.content"
+        "content": "Body"
       },
       {
         "type": "font_picker",
         "id": "body_font",
-        "default": {
-          "font": "Assistant",
-          "variant": "regular"
-        },
-        "label": "t:settings_schema.typography.settings.body_font.label"
+        "label": "Font",
+        "default": "Helvetica Neue"
       },
       {
         "type": "range",
         "id": "body_scale",
-        "min": 100,
-        "max": 130,
+        "label": "Font size scale",
+        "default": 100,
+        "min": 80,
+        "max": 120,
         "step": 5,
-        "unit": "%",
-        "label": "t:settings_schema.typography.settings.body_scale.label",
-        "default": 100
-      },
-      {
-        "type": "info",
-        "content": "t:settings_schema.typography.settings.info.content"
-      },
-      {
-        "type": "url",
-        "id": "learn_more_link",
-        "label": "t:settings_schema.typography.settings.learn_more_link.label",
-        "default": "https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts"
+        "unit": "%"
       }
-    ]
+    ],
+    "info": {
+      "content": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+    },
+    "learn_more_link": {
+      "label": "Learn more",
+      "default": "https:\/\/example.com"
+    }
   },
   {
     "name": "t:settings_schema.buttons.name",
