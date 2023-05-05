@@ -37,25 +37,14 @@
   "name": "t:settings_schema.typography.name",
   "settings": [
     {
-      "type": "info",
-      "content": "t:settings_schema.typography.info.content",
-      "id": "fonts_info"
-    },
-    {
-      "type": "url",
-      "id": "learn_more_link",
-      "label": "t:settings_schema.typography.learn_more_link.label",
-      "default": "https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts"
-    },
-    {
       "type": "header",
-      "content": "t:settings_schema.typography.header__1.content"
+      "content": "t:settings_schema.typography.settings.header__1.content"
     },
     {
       "type": "font_picker",
       "id": "header_font",
       "default": "assistant_n4",
-      "label": "t:settings_schema.typography.header_font.label"
+      "label": "t:settings_schema.typography.settings.header_font.label"
     },
     {
       "type": "range",
@@ -64,18 +53,18 @@
       "max": 150,
       "step": 5,
       "unit": "%",
-      "label": "t:settings_schema.typography.heading_scale.label",
+      "label": "t:settings_schema.typography.settings.heading_scale.label",
       "default": 100
     },
     {
       "type": "header",
-      "content": "t:settings_schema.typography.header__2.content"
+      "content": "t:settings_schema.typography.settings.header__2.content"
     },
     {
       "type": "font_picker",
       "id": "body_font",
       "default": "assistant_n4",
-      "label": "t:settings_schema.typography.body_font.label"
+      "label": "t:settings_schema.typography.settings.body_font.label"
     },
     {
       "type": "range",
@@ -84,10 +73,19 @@
       "max": 130,
       "step": 5,
       "unit": "%",
-      "label": "t:settings_schema.typography.body_scale.label",
+      "label": "t:settings_schema.typography.settings.body_scale.label",
       "default": 100
     }
-  ]
+  ],
+  "info": {
+    "type": "info",
+    "content": "t:settings_schema.typography.settings.info.content"
+  },
+  "learn_more_link": {
+    "type": "url",
+    "label": "t:settings_schema.typography.settings.learn_more_link.label",
+    "default": "https://example.com"
+  }
 },
 {
   "name": "t:settings_schema.typography.name",
