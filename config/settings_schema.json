@@ -112,72 +112,69 @@
       }
     ]
   },
-  {
-    "name": "Fonts",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Choose your header font"
+{
+  "name": "t:settings_schema.typography.name",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:settings_schema.typography.settings.header__1.content"
+    },
+    {
+      "type": "font_picker",
+      "id": "header_font",
+      "default": {
+        "font": "Assistant",
+        "variant": "regular"
       },
-      {
-        "type": "font_picker",
-        "id": "header_font",
-        "default": "Assistant",
-        "label": "Header Font",
-        "info": "Select your preferred font for headers"
+      "label": "t:settings_schema.typography.settings.header_font.label",
+      "info": "t:settings_schema.typography.settings.header_font.info"
+    },
+    {
+      "type": "range",
+      "id": "heading_scale",
+      "min": 100,
+      "max": 150,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.typography.settings.heading_scale.label",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "t:settings_schema.typography.settings.header__2.content"
+    },
+    {
+      "type": "font_picker",
+      "id": "body_font",
+      "default": {
+        "font": "Assistant",
+        "variant": "regular"
       },
-      {
-        "type": "range",
-        "id": "header_scale",
-        "min": 100,
-        "max": 150,
-        "step": 5,
-        "unit": "%",
-        "label": "Header Scale",
-        "default": 100
-      },
-      {
-        "type": "header",
-        "content": "Choose your body font"
-      },
-      {
-        "type": "font_picker",
-        "id": "body_font",
-        "default": "Assistant",
-        "label": "Body Font",
-        "info": "Select your preferred font for body text"
-      },
-      {
-        "type": "range",
-        "id": "body_scale",
-        "min": 100,
-        "max": 130,
-        "step": 5,
-        "unit": "%",
-        "label": "Body Scale",
-        "default": 100
-      },
-      {
-        "type": "info",
-        "content": "Using more than two font families can impact your store's speed. Learn how fonts affect your store's speed."
-      },
-      {
-        "type": "url",
-        "label": "Learn more",
-        "default": "https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts"
-      },
-      {
-        "type": "header",
-        "content": "Self-hosted fonts"
-      },
-      {
-        "type": "textarea",
-        "id": "self_hosted_fonts",
-        "label": "Upload your self-hosted fonts in WOFF or WOFF2 format",
-        "info": "Only WOFF and WOFF2 formats are supported"
-      }
-    ]
-  },
+      "label": "t:settings_schema.typography.settings.body_font.label",
+      "info": "t:settings_schema.typography.settings.body_font.info"
+    },
+    {
+      "type": "range",
+      "id": "body_scale",
+      "min": 100,
+      "max": 130,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.typography.settings.body_scale.label",
+      "default": 100
+    },
+    {
+      "type": "info",
+      "content": "t:settings_schema.typography.settings.info.content"
+    },
+    {
+      "type": "url",
+      "id": "learn_more_link",
+      "label": "t:settings_schema.typography.settings.learn_more_link.label",
+      "default": "https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts"
+    }
+  ]
+}
   {
     "name": "t:settings_schema.buttons.name",
     "settings": [
