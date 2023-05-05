@@ -42,19 +42,19 @@
     },
     {
       "type": "font_picker",
-      "id": "header_font",
+      "id": "header_font_setting",
       "default": "assistant_n4",
       "label": "t:settings_schema.typography.settings.header_font.label"
     },
     {
       "type": "range",
-      "id": "heading_scale",
+      "id": "heading_scale_setting",
       "min": 100,
       "max": 150,
       "step": 5,
       "unit": "%",
       "label": "t:settings_schema.typography.settings.heading_scale.label",
-      "default": 100
+      "default": "100"
     },
     {
       "type": "header",
@@ -62,21 +62,30 @@
     },
     {
       "type": "font_picker",
-      "id": "body_font",
+      "id": "body_font_setting",
       "default": "assistant_n4",
       "label": "t:settings_schema.typography.settings.body_font.label"
     },
     {
       "type": "range",
-      "id": "body_scale",
+      "id": "body_scale_setting",
       "min": 100,
       "max": 130,
       "step": 5,
       "unit": "%",
       "label": "t:settings_schema.typography.settings.body_scale.label",
-      "default": 100
+      "default": "100"
     }
-  ]
+  ],
+  "info": {
+    "type": "text",
+    "text": "t:settings_schema.typography.settings.info.content"
+  },
+  "learn_more_link_setting": {
+    "type": "url",
+    "label": "t:settings_schema.typography.settings.learn_more_link.label",
+    "default": "https://example.com"
+  }
 },
 {
   "name": "t:settings_schema.typography.name",
