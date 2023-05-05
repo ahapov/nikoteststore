@@ -37,10 +37,6 @@
   "name": "t:settings_schema.typography.name",
   "settings": [
     {
-      "type": "info",
-      "content": "We recommend that you use no more than two font families for your store. Learn how fonts affect the store speed: [Read More](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
-    },
-    {
       "type": "header",
       "content": "t:settings_schema.typography.settings.header__1.content",
       "info": "t:settings_schema.typography.settings.type_header_font.info"
