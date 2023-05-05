@@ -196,7 +196,7 @@
       }
     },
   "typography": {
-    "name": "Typography",
+    "name": "Fonts",
     "settings": {
       "type_header_font": {
         "label": "Font",
