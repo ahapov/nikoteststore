@@ -52,7 +52,7 @@
       "content": "t:settings_schema.typography.settings.header__2.content"
     },
     {
-      "type": "file",
+      "type": "font_picker",
       "id": "self_hosted_font",
       "label": "t:settings_schema.typography.settings.self_hosted_font.label",
       "accept": ".woff2, .woff"
