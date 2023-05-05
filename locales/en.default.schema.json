@@ -202,14 +202,11 @@
       "label": "Font",
       "info": "For optimal speed and performance, it's best to keep the number of font families used in your store to a maximum of two. [Read More](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
     },
-    "heading_scale": {
-      "label": "Font size scale"
-    },
     "header__1": {
-      "content": "Headings"
+      "content": "Google"
     },
     "header__2": {
-      "content": "Body"
+      "content": "Self Hosted"
     },
     "type_body_font": {
       "label": "Font",
