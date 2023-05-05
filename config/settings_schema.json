@@ -34,56 +34,41 @@
       ]
     },
   {
-    "name": "Fonts",
+    "name": "t:settings_schema.typography.name",
     "settings": [
       {
         "type": "header",
-        "content": "Headings"
+        "content": "t:settings_schema.typography.settings.header__1.content"
       },
       {
         "type": "font_picker",
-        "id": "header_font",
-        "label": "Font",
-        "default": "Arial"
-      },
-      {
-        "type": "range",
-        "id": "heading_scale",
-        "label": "Font size scale",
-        "default": 100,
-        "min": 80,
-        "max": 120,
-        "step": 5,
-        "unit": "%"
+        "id": "type_header_font",
+        "default": "assistant_n4",
+        "label": "t:settings_schema.typography.settings.type_header_font.label",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
       },
       {
         "type": "header",
-        "content": "Body"
+        "content": "t:settings_schema.typography.settings.header__2.content"
       },
       {
         "type": "font_picker",
-        "id": "body_font",
-        "label": "Font",
-        "default": "Helvetica Neue"
+        "id": "type_body_font_1",
+        "default": "assistant_n4",
+        "label": "t:settings_schema.typography.settings.type_body_font.label",
+        "info": "t:settings_schema.typography.settings.type_body_font.info"
       },
       {
         "type": "range",
         "id": "body_scale",
-        "label": "Font size scale",
-        "default": 100,
-        "min": 80,
-        "max": 120,
+        "min": 100,
+        "max": 130,
         "step": 5,
-        "unit": "%"
+        "unit": "%",
+        "label": "t:settings_schema.typography.settings.body_scale.label",
+        "default": 100
       }
-    ],
-    "info": {
-      "content": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
-    },
-    "learn_more_link": {
-      "label": "Learn more",
-      "default": "https:\/\/example.com"
-    }
+    ]
   },
   {
     "name": "t:settings_schema.buttons.name",
