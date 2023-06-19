@@ -6,9 +6,54 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "55518970-b629-4196-a229-72f213f0919b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19556049846577__55518970-b629-4196-a229-72f213f0919b-1687174017b303f84a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "DE L’ART &DES VÊTEMENTS",
+            "heading_size": "h1"
+          }
+        },
+        "template--19556049846577__55518970-b629-4196-a229-72f213f0919b-1687174017b303f84a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19556049846577__55518970-b629-4196-a229-72f213f0919b-1687174017b303f84a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19556049846577__55518970-b629-4196-a229-72f213f0919b-1687174017b303f84a-0",
+        "template--19556049846577__55518970-b629-4196-a229-72f213f0919b-1687174017b303f84a-1",
+        "template--19556049846577__55518970-b629-4196-a229-72f213f0919b-1687174017b303f84a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/a-person-smiles-holding-a-water-bottle-and-a-yoga-mat.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "55518970-b629-4196-a229-72f213f0919b"
   ]
 }
