@@ -37,10 +37,8 @@
     "name": "t:settings_schema.typography.name",
     "settings": [
       {
-        "info": "t:settings_schema.typography.settings.type_header_font.info"
-      },
-      {
         "type": "header",
+        "info": "t:settings_schema.typography.settings.type_header_font.info",
         "content": "t:settings_schema.typography.settings.header__1.content"
       },
       {
