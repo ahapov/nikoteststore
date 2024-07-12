@@ -22,6 +22,12 @@
           "settings": {
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -31,12 +37,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
           }
         },
         "description": {
@@ -54,9 +54,9 @@
       "block_order": [
         "title",
         "price",
+        "buy_buttons",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "description",
         "share"
       ],
