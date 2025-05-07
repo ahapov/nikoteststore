@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "cart-items": {
@@ -12,21 +21,23 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
+        },
+        "parcelify_rate_calculator_v2_kttjcd": {
+          "type": "shopify://apps/parcelify/blocks/rate_calculator_v2/7638fb4b-ef12-4af8-828a-5d47b2e8a897",
+          "settings": {}
         }
       },
       "block_order": [
         "subtotal",
-        "buttons"
+        "buttons",
+        "parcelify_rate_calculator_v2_kttjcd"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
